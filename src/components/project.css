@@ -1,0 +1,25 @@
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-section h1 {
+  margin: 1rem 0;
+}
+.portfolio-section p {
+  margin-bottom: 4rem;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects li {
+  margin-right: 2rem;
+}
+.projects img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
