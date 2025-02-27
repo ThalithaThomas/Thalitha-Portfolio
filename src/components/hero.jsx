@@ -27,7 +27,7 @@ const Hero = () => {
           </Link>
         </button>
         <button className="btn-light">
-          <a href="thalithaCv.pdf">Resume</a>
+          <a href="http://localhost:5178/thalitha.pdf">Resume</a>
         </button>
       </div>
     </div>

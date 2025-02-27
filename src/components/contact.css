@@ -1,5 +1,6 @@
 .contact-container {
   width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,27 +59,18 @@
   margin-right: 2rem;
   cursor: pointer;
 }
-
-@media (max-width: 688px) {
-  .contact h1 {
-    font-size: larger;
-  }
-  .contact p {
-    display: none;
-  }
-  .contact-container form input {
-    width: 300px;
-    padding: 12px 70px;
-  }
-  .contact-container form input:last-of-type {
-    padding: 3rem 70px;
+@media (max-width: 778px) {
+  .contact-container {
+    margin-top: 50rem;
   }
 }
 @media (max-width: 688px) {
-  .contact-container {
-    margin: 0%;
+  .contact-container form input {
+    padding: 12px 100px;
   }
-
+  .contact-container form input:last-of-type {
+    padding: 3rem 100px;
+  }
   .contact h1 {
     font-size: small;
   }
@@ -86,6 +78,6 @@
     border-radius: 0;
   }
   .btn {
-    border-radius: 0;
+    border-radius: 25px;
   }
 }

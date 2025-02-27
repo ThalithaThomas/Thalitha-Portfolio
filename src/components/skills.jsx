@@ -1,5 +1,6 @@
 import "./skills.css";
-import { FaCheckCircle } from "react-icons/fa";
+import SkillsComponent from "./SkillsComponent";
+
 const Skills = () => {
   return (
     <div className="skills-intro" id="skills">
@@ -9,50 +10,26 @@ const Skills = () => {
         <div className="frontend-skills">
           <h5>Frontend developer</h5>
           <ul className="frontend">
-            <li>
-              <FaCheckCircle size={10} /> HTML
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> tailwind CSS
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> JavaScript
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> React
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> CSS
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> Redux toolkit
-            </li>
+            <SkillsComponent skillName="HTML" />
+            <SkillsComponent skillName="CSS" />
+            <SkillsComponent skillName="JavaScript" />
+            <SkillsComponent skillName="TailwindCSS" />
+            <SkillsComponent skillName="React" />
+            <SkillsComponent skillName="Redux toolkit" />
           </ul>
         </div>
         <div className="backend-skills">
           <h5>Backend developer</h5>
           <ul className="backend">
-            <li>
-              <FaCheckCircle size={10} /> Node Js
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> Python
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> SQL
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> MySQL
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> Flask
-            </li>
-            <li>
-              <FaCheckCircle size={10} /> GitHub
-            </li>
+            <SkillsComponent skillName="Node JS" />
+            <SkillsComponent skillName="Python" />
+            <SkillsComponent skillName="SQL" />
+            <SkillsComponent skillName="MYSQL" />
+            <SkillsComponent skillName="Flask" />
+            <SkillsComponent skillName="GitHub" />
           </ul>
         </div>
-      </div>{" "}
+      </div>
     </div>
   );
 };

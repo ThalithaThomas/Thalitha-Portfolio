@@ -13,9 +13,12 @@ p {
   top: 0;
   z-index: 100000;
   background-color: black;
+  padding: 0 2rem;
 }
 .navbar h1 {
   padding-left: 1rem;
+  font-size: x-large;
+  font-weight: bold;
 }
 .nav-menu {
   display: flex;
@@ -55,6 +58,9 @@ p {
 }
 
 @media (max-width: 778px) {
+  .navbar {
+    padding: 0 3rem;
+  }
   .navbar h1 {
     font-size: medium;
     padding-left: 0;
@@ -64,6 +70,7 @@ p {
     background: transparent;
     color: white;
     font-size: medium;
+    margin: 1rem;
   }
 
   .nav-menu {
@@ -76,15 +83,17 @@ p {
     top: 0;
     left: -100%;
     z-index: -3;
+    opacity: 1;
     transition: 0.4s;
   }
   .nav-menu li {
     padding: 1rem 0;
   }
+
   .nav-menu.active {
     left: 0;
     z-index: -2;
-    background-color: aqua;
+    background-color: black;
   }
   .menu {
     display: initial;

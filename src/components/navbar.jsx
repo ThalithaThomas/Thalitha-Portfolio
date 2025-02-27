@@ -6,11 +6,13 @@ import { FaTimes, FaBars } from "react-icons/fa";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const handleClickMenu = () => {
+    setClick(false);
+  };
 
   return (
     <nav className="navbar" id="navbar">
       <h1>Thalitha sambo</h1>
-
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link
@@ -19,6 +21,7 @@ const Navbar = () => {
             spy={true}
             offset={-100}
             duration={500}
+            onClick={handleClickMenu}
           >
             Home
           </Link>
@@ -30,6 +33,7 @@ const Navbar = () => {
             spy={true}
             offset={-100}
             duration={500}
+            onClick={handleClickMenu}
           >
             About
           </Link>
@@ -41,6 +45,7 @@ const Navbar = () => {
             spy={true}
             offset={-100}
             duration={500}
+            onClick={handleClickMenu}
           >
             Skills
           </Link>
@@ -52,6 +57,7 @@ const Navbar = () => {
             spy={true}
             offset={-100}
             duration={500}
+            onClick={handleClickMenu}
           >
             Project
           </Link>
@@ -64,8 +70,9 @@ const Navbar = () => {
               spy={true}
               offset={-40}
               duration={500}
+              onClick={handleClickMenu}
             >
-              Contact me
+              Say Hello
             </Link>
           </button>
         </li>

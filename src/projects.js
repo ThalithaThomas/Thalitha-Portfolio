@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "E-commerce Website",
-    image: "/public/tsongaQ.png",
+    image: "tsongaQ.png",
     description:
       "A fully functional online store built with React and Redux. Features include product listings, a shopping cart, and user authentication.",
     technologies: "React js, Redux,tailwind css",
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     title: "To-Do List App",
-    image: "/public/landingpage.jpg",
+    image: "todo.jpg",
     description:
       "A simple to-do list application allowing users to add, remove, and mark tasks as complete.",
     technologies: "React, CSS",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: "Landing Page",
-    image: "/public/landingpage.jpg",
+    image: "Tmg copy.jpg",
     description:
       "A responsive landing page designed for a fictional product using HTML, CSS, and JavaScript.",
     technologies: "HTML, CSS, JavaScript",
