@@ -1,24 +1,27 @@
-h1,
-p {
+h2,
+button {
   color: white;
 }
 
 .navbar {
-  height: 6rem;
+  height: 5rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+
   top: 0;
   z-index: 100000;
-  background-color: black;
+  background-color: rgb(18, 30, 39);
   padding: 0 2rem;
 }
-.navbar h1 {
+.navbar li {
+  color: white;
+}
+.navbar h2 {
   padding-left: 1rem;
   font-size: x-large;
-  font-weight: bold;
+  font-weight: 300;
 }
 .nav-menu {
   display: flex;
@@ -29,40 +32,43 @@ p {
 }
 
 .nav-menu li a:hover {
-  color: yellow;
+  color: #ed6955;
   text-decoration: underline;
   text-underline-offset: 10px;
   text-decoration-thickness: 2px;
   cursor: pointer;
 }
 .active {
-  color: yellow;
-}
-.nav-menu li button a {
-  color: black;
-}
-.nav-menu li button {
-  padding: 7px 18px;
-}
-.nav-menu li button a:hover {
-  text-decoration: none;
-  color: black;
-}
-.nav-menu li:hover {
-  border-bottom: 2 px solid yellow;
-  border-radius: 25px;
+  color: #ed6955;
 }
 
 .menu {
   display: none;
 }
-
+.sayHi {
+  background: #ed6955;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 5px 1rem;
+}
+.sayHi button a:hover {
+  background-color: white;
+  font-size: 10px;
+}
+.faBars {
+  font-size: 2rem;
+  color: white;
+}
 @media (max-width: 778px) {
   .navbar {
-    padding: 0 3rem;
+    padding: 2rem 3rem;
+    position: relative;
   }
-  .navbar h1 {
-    font-size: medium;
+  .navbar h2 {
+    font-size: 28px;
     padding-left: 0;
   }
 
@@ -72,7 +78,9 @@ p {
     font-size: medium;
     margin: 1rem;
   }
-
+  .sayHi {
+    background-color: transparent;
+  }
   .nav-menu {
     flex-direction: column;
     justify-content: center;
@@ -85,6 +93,8 @@ p {
     z-index: -3;
     opacity: 1;
     transition: 0.4s;
+    font-size: 48px;
+    padding-top: 10rem;
   }
   .nav-menu li {
     padding: 1rem 0;
@@ -93,9 +103,24 @@ p {
   .nav-menu.active {
     left: 0;
     z-index: -2;
-    background-color: black;
+    background-color: rgb(18, 30, 39);
+    min-height: 100vh;
   }
   .menu {
     display: initial;
+  }
+}
+@media (max-width: 425px) {
+  .navbar {
+    padding: 3rem 4rem;
+  }
+  .navbar h2 {
+    font-size: 48px;
+    padding-left: 0;
+  }
+  .faBars {
+    size: 60rem;
+    font-size: 4rem;
+    color: white;
   }
 }

@@ -1,93 +1,93 @@
-.skills-intro {
+.skillsContainer {
+  min-height: 100vh;
+  background-color: white;
+}
+.skillsHeading h1 {
+  font-size: 2rem;
+  color: rgb(18, 30, 39);
+  text-align: left;
+  margin-left: min(4rem);
+  margin-bottom: 3rem;
+}
+.skillsContainer img {
+  width: min(350px);
+  height: max(380px);
+  margin-right: min(4rem);
+  border-radius: 2rem;
+}
+.frontendbtn {
+  padding: 0 3px;
+}
+.skillsWrapper {
+  margin-left: min(4rem, 70%);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 6rem;
+  justify-content: left;
+  gap: 2rem;
 }
-.skills-intro h1 {
-  margin: 2rem 0;
-  font-size: x-large;
-}
-.skills-intro p {
-  margin-bottom: 2rem 0;
-  opacity: 0.5;
-}
-
 .skills {
-  height: calc(100vh-10rem);
-  width: 100vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 4rem 0;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
 }
-.skills h5 {
+.skills button {
+  background-color: rgb(18, 30, 39);
+  margin: 2px;
+  padding: 6px 25px;
+  cursor: pointer;
+}
+.bio {
+  max-width: 50%;
+  text-align: left;
+}
+.aboutP h4 {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.aboutP h3 {
+  margin-top: 1rem;
+  font-size: 16px;
   font-weight: 500;
-  text-align: center;
+  color: #ed6955;
 }
-.frontend-skills {
-  padding: 2rem;
-  background-color: white;
-  width: 400px;
-  height: 200px;
-  margin-right: 3rem;
-  border-radius: 20px;
-}
-.frontend-skills h5 {
-  margin-bottom: 1rem;
-}
-.frontend {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.backend-skills {
-  background-color: white;
-  width: 400px;
-  height: 200px;
-  border-radius: 20px;
-  padding: 2rem;
-}
-.backend-skills h5 {
-  margin-bottom: 1rem;
-}
-.backend {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-@media (max-width: 778px) {
-  .skills {
-    height: calc(100vh-10rem);
-    width: 100vw;
+@media (max-width: 425px) {
+  .skillsWrapper {
+    margin: 6rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
   }
-  .frontend-skills {
-    padding: 3rem;
-    width: 500px;
-    height: 200px;
-    border-radius: 20px;
-    margin: 0 0 3rem 0;
+
+  .skillsHeading h1 {
+    font-size: 5rem;
+
+    padding-top: 5rem;
   }
-  .backend-skills {
-    background-color: white;
-    width: 500px;
-    height: 200px;
-    border-radius: 20px;
-    padding: 2rem;
+  .skillsContainer img {
+    width: max(550px);
+    height: max(600px);
+    margin-right: 0rem;
+    border-radius: 2rem;
   }
-  .skills-intro {
-    margin: 1rem 0;
+  .skills button {
+    background-color: rgb(18, 30, 39);
+    margin: 2px;
+    padding: 6px 25px;
+    font-size: 38px;
   }
-  .skills-intro p {
-    margin-bottom: 0;
+  .bio {
+    margin: 2rem;
+    max-width: 70%;
   }
-  .skills-intro h1 {
-    font-size: larger;
-    margin-bottom: 1rem;
+  .aboutP {
+    margin-top: 3rem;
+    font-size: 45px;
+  }
+  .aboutP h3 {
+    margin-top: 2rem;
+    font-size: 46px;
   }
 }

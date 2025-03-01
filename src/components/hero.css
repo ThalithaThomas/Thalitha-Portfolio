@@ -1,59 +1,117 @@
 .hero {
-  min-height: calc(100vh-6rem);
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-  padding: 8rem 0 2rem 0;
+  min-height: (100vh);
+  padding: 8rem 0 6rem 0;
+  background-color: rgb(18, 30, 39);
 }
 .hero img {
-  width: 200px;
+  width: max();
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
 .hero-section {
+  width: min(700px);
+  margin-left: 4rem;
   margin-top: 2rem;
-  text-align: center;
+  text-align: left;
+  height: auto;
 }
-.hero-section p {
-  margin: 2rem;
-  font-size: large;
-}
-.hero-section button {
-  margin-right: 1rem;
-}
-.hero-section button a {
-  text-decoration: none;
+.hero-section h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 300;
 }
 
-.hero-section button a:hover {
-  color: black;
+.hero-section p {
+  margin-top: 1rem;
+  color: white;
 }
-.btn a {
-  color: black;
-  border-radius: 25px;
+
+.dowloadResume {
+  cursor: pointer;
+  padding: 10px 0;
 }
-@media (max-width: 778px) {
+.dowloadResume a {
+  border-bottom: 1px solid #ed6955;
+  color: #ed6955;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactIcon {
+  width: 40px;
+  height: 40px;
+  color: #ed6955;
+}
+.DownloadAlt {
+  color: #ed6955;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+@media (max-width: 768px) {
   .hero {
-    padding: 9rem 0 0 0;
+    padding: 7rem 4rem;
   }
-  .hero img {
-    margin-top: 1rem;
-    width: 200px;
-    height: 200px;
-  }
-  .hero h1 {
-    font-size: larger;
+  .hero-section h1 {
+    font-size: 4rem;
   }
   .hero-section p {
-    margin: 1rem 0;
-    font-size: medium;
+    margin-top: 3rem;
+    font-size: 30px;
   }
-  .btn {
-    border-radius: 25px;
+  .dowloadResume a {
+    margin-top: 2rem;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero {
+    padding: 12rem 4rem;
+  }
+  .hero-section h1 {
+    font-size: 8rem;
+  }
+  .hero-section p {
+    margin-top: 3rem;
+    font-size: 40px;
+  }
+  .dowloadResume a {
+    margin-top: 2rem;
+    font-size: 38px;
+  }
+  .contactIcon {
+    width: 60px;
+    height: 60px;
+  }
+  .DownloadAlt {
+    width: 36px;
+    height: 36px;
+  }
+}
+@media (max-width: 380px) {
+  .hero {
+    padding: 16rem 4rem;
+  }
+  .hero-section h1 {
+    font-size: 8rem;
+  }
+  .hero-section p {
+    margin-top: 4rem;
+    font-size: 48px;
+  }
+  .dowloadResume a {
+    margin-top: 4rem;
+    font-size: 48px;
+  }
+
+  .contactIcon {
+    width: 80px;
+    height: 80px;
+  }
+  .DownloadAlt {
+    width: 36px;
+    height: 36px;
   }
 }

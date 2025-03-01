@@ -12,6 +12,7 @@ body {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  background-color: white;
 }
 #root {
   margin: 0;
@@ -25,34 +26,24 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", serif;
 }
-body {
-  background-color: black;
-}
-h1,
-h2,
-h3,
-h4 p,
-button,
-a {
-  color: white;
-}
+
 li {
   list-style: none;
 }
 .btn {
-  background: yellow;
-  color: black;
+  background: #ed6955;
+  color: white;
   border: none;
   outline: none;
   border-radius: 25px;
   cursor: pointer;
-  padding: 5px 2rem;
+  padding: 5px 1rem;
 }
 .btn:hover {
-  background: orange;
+  font-size: 16px;
 }
 .btn-light {
-  border: 1px solid orange;
+  border: 1px solid #ed6955;
 
   background-color: transparent;
   border-radius: 25px;
@@ -74,6 +65,7 @@ li {
 @media (max-width: 776px) {
   .btn {
     padding: 5px 12px;
+    font-size: 65px;
   }
   .btn-light {
     padding: 5px 12px;

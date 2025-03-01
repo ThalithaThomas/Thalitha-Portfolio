@@ -1,33 +1,49 @@
 import "./skills.css";
-import SkillsComponent from "./SkillsComponent";
 
+import thali from "../assets/tha.jpg";
 const Skills = () => {
   return (
-    <div className="skills-intro" id="skills">
-      <h1>Skills</h1>
-      <p>My technical skills</p>
-      <div className="skills">
-        <div className="frontend-skills">
-          <h5>Frontend developer</h5>
-          <ul className="frontend">
-            <SkillsComponent skillName="HTML" />
-            <SkillsComponent skillName="CSS" />
-            <SkillsComponent skillName="JavaScript" />
-            <SkillsComponent skillName="TailwindCSS" />
-            <SkillsComponent skillName="React" />
-            <SkillsComponent skillName="Redux toolkit" />
-          </ul>
+    <div className="skillsContainer" id="skills">
+      <div className="skillsHeading">
+        <h1 className="relative"> My Skills </h1>
+      </div>
+      <div className="skillsWrapper">
+        <div>
+          <img src={thali} alt="image.jpg" />
         </div>
-        <div className="backend-skills">
-          <h5>Backend developer</h5>
-          <ul className="backend">
-            <SkillsComponent skillName="Node JS" />
-            <SkillsComponent skillName="Python" />
-            <SkillsComponent skillName="SQL" />
-            <SkillsComponent skillName="MYSQL" />
-            <SkillsComponent skillName="Flask" />
-            <SkillsComponent skillName="GitHub" />
-          </ul>
+        <div className="bio">
+          <div className="skills">
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JavaScript</button>
+            <button>TailwindCSS</button>
+            <button>React </button>
+            <button>Redux toolkit</button>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>Node.JS</button>
+            <button>Python </button>
+            <button>SQL</button>
+            <button>HTML</button>
+            <button>MYSQL</button>
+            <button>Flask</button>
+            <button>GitHub</button>
+          </div>
+          <div className="aboutP">
+            <h4>My Quick Story</h4>
+            <h5>
+              It all started in my first year of college when I found myself in
+              a<strong> C++ course </strong>. The concepts felt foreign at
+              first, but as I tackled the challenges, I uncovered the beauty of
+              programming. Each project pulled me deeper into this captivating
+              world, igniting a passion I never knew I had. I soon decided to
+              pursue a<strong> software engineering course</strong>, eager to
+              embrace the exciting challenges ahead. Thus began my love affair
+              with coding—a lifelong journey filled with creativity and endless
+              possibilities!
+            </h5>
+            <h3 href="#">keep reading my bio {">"} </h3>
+          </div>
         </div>
       </div>
     </div>

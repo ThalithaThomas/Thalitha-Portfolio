@@ -1,78 +1,116 @@
-.porfolio-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
+.projectContainer {
+  background-color: white;
+  min-height: 100vh;
 }
-.porfolio-container p {
-  margin: 2rem 0;
+.projectHeading {
+  text-align: left;
+  margin-left: 4rem;
+  color: rgb(18, 30, 39);
+  font-weight: 800;
+  margin-bottom: 2rem;
 }
-.Projectwrapper {
-  width: 350px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.projectHeading h1 {
+  font-size: 40px;
 }
-
 .image-wrapper {
-  position: relative;
-  width: 300px;
-  margin: 20px;
+  width: min(300px);
+  height: max(250px);
+  margin-bottom: 6rem;
+  margin-left: 10rem;
 }
 .image-wrapper img {
-  border-radius: 8px;
-  height: 300px;
-  width: 100%;
-  margin: auto;
-  display: block;
-}
-.project-content {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  border-radius: 18px;
+}
+.projectwrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  padding: 1rem;
+  margin-bottom: 3rem;
 }
-.project-content:hover {
-  opacity: 1;
+.projectContent {
+  max-width: 600px;
+  text-align: left;
+  margin-left: 4rem;
 }
-.project-content h1 {
-  font-size: 23px;
-  font-weight: bold;
-  color: #fff;
-  margin: 1rem 0;
+.projectContainer h1 {
+  color: rgb(18, 30, 39);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
-.project-content a {
+.projectContent p {
+  font-size: 18px;
+}
+.viewProjectBtn {
+  background-color: #ed6955;
+  padding: 8px 16px;
   margin-top: 2rem;
 }
-.project-content > * {
-  transform: translateY(25px);
-  transition: transform 0.06s;
+.projectSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: flex-start;
+  margin: 1rem 0;
 }
-.project-content:hover > * {
-  transform: translateY(0px);
+.projectSkills button {
+  background-color: rgb(18, 30, 39);
+  margin: 2px;
+  padding: 3px 8px;
+  font-size: 12px;
+  cursor: pointer;
 }
-@media (max-width: 778px) {
-  .porfolio-container {
-    height: 100vh;
+@media (max-width: 425px) {
+  .projectwrapper {
+    flex-direction: column;
+    margin-top: 3rem;
   }
-  .Projectwrapper {
-    width: 600px;
+  .projectHeading {
+    margin-top: 5rem;
+    margin-left: 8rem;
   }
 
   .image-wrapper {
-    width: 600px;
-    margin: 20px;
+    width: min(600px);
+    height: max(500px);
+    margin: 6rem 0;
+    margin-left: 8rem;
   }
   .image-wrapper img {
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+  }
+
+  .projectContent {
+    max-width: 700px;
+
+    margin-left: 8rem;
+  }
+  .projectContainer h1 {
+    font-size: 60px;
+
+    margin-bottom: 2rem;
+  }
+  .projectContent p {
+    font-size: 48px;
+  }
+  .viewProjectBtn {
+    padding: 18px 26px;
+    font-size: 39px;
+  }
+  .projectSkills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .projectSkills button {
+    background-color: rgb(18, 30, 39);
+    margin: 2px;
+    padding: 9px 18px;
+    font-size: 40px;
+    cursor: pointer;
   }
 }

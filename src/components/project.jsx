@@ -4,60 +4,77 @@ import todo from "../assets/todo.jpg";
 import tmg from "../assets/Tmg.jpg";
 const Project = () => {
   return (
-    <div className=" porfolio-container flex  flex-col sm:flex-row  ">
-      <h1 className="md:text-2xl font-semibold mb-4">My Projects</h1>
-      <p className="hidden sm:block">
-        Welcome to my portfolio! Here you can find my personal <br />
-        projects that showcase my skills and experience as a developer. Feel
-        free to explore <br />
-        my projects and check out the links to their live demos and source code!
-      </p>
+    <div className=" projectContainer ">
+      <div className="projectHeading">
+        <h1>Projects</h1>
+      </div>
+      <div className="projectwrapper">
+        <div className="projectContent">
+          <h1>Thomas Micro-Lending Group</h1>
+          <div className="projectSkills">
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JavaScript</button>
+          </div>
+          <p>
+            Thomas Microlending Group is a responsive web solution that clearly
+            communicates its mission and services. It enhances user engagement
+            through compelling CTAs and a simple, accessible layout, allowing
+            users to reach out and receive feedback more efficiently.
+          </p>
+          <a href="#">
+            <button className=" viewProjectBtn">view website {">"}</button>
+          </a>
+        </div>
+        <div className="image-wrapper">
+          <img src={tmg} alt="" />
+        </div>
+      </div>
+      <div className="projectwrapper">
+        <div className="projectContent">
+          <h1>Tsonga Queens</h1>
+          <div className="projectSkills">
+            <button>TailwindCSS</button>
+            <button>React js </button>
+            <button>Redux toolkit</button>
+            <button>Node.JS</button>
+          </div>
+          <p>
+            A fully functional online store built with React and Redux. Features
+            include product listings, a shopping cart,
+          </p>
+          <a href="#">
+            <button className=" viewProjectBtn">view website {">"}</button>
+          </a>
+        </div>
+        <div className="image-wrapper">
+          <img src={tsongaQ} alt="" />
+        </div>
+      </div>
 
-      <div className="flex flex-wrap justify-center">
-        <div className="projectwrapper" id="portfolio">
-          <div className="image-wrapper">
-            <img src={tsongaQ} alt="" />
-            <div className="project-content">
-              <h1 className="text-xl ">E-commerce website</h1>
-              <p>
-                A fully functional online store built with React and Redux.
-                Features include product listings, a shopping cart,
-              </p>
-              <a href="#">
-                <button className=" btn">view website</button>
-              </a>
-            </div>
+      <div className="projectwrapper">
+        <div className="projectContent">
+          <h1>To-Do List App</h1>
+          <div className="projectSkills">
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JavaScript</button>
+            <button>MYSQL</button>
+            <button>Flask</button>
           </div>
+          <p>
+            Designed to empower users in effectively managing their tasks and
+            overall productivity. This intuitive application allows users to add
+            new tasks to their lists, users can easily remove tasks that are no
+            longer relevant, mark tasks as complete, update details such as due
+            dates and task descriptions .
+          </p>
+          <a href="#">
+            <button className=" viewProjectBtn">view website {">"}</button>
+          </a>
         </div>
-        <div className="projectwrapper" id="portfolio">
-          <div className="image-wrapper">
-            <img src={tmg} alt="" />
-            <div className="project-content">
-              <h1 className="text-xl ">Landing Page</h1>
-              <p>
-                A responsive landing page designed for a fictional product using
-                HTML, CSS, and JavaScript.
-              </p>
-              <a href="#">
-                <button className=" btn">view website</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="projectwrapper" id="portfolio">
-          <div className="image-wrapper">
-            <img src={todo} alt="" />
-            <div className="project-content">
-              <h1 className="text-xl mb-5">To-Do List App</h1>
-              <p>
-                A simple to-do list application allowing users to add, remove,
-                and mark tasks as complete.
-              </p>
-              <a href="#">
-                <button className=" btn">view website</button>
-              </a>
-            </div>
-          </div>
+        <div className="image-wrapper">
+          <img src={todo} alt="" />
         </div>
       </div>
     </div>

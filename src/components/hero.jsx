@@ -1,33 +1,46 @@
 import "./hero.css";
-import thali from "../assets/tha.jpg";
-import { Link } from "react-scroll";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
+import { MdEmail } from "react-icons/md";
+import { FaGithub, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="hero" id="home">
-      <img src={thali} alt="image.jpg" />
       <div className="hero-section">
-        <h1 style={{ color: "yellow" }}>Front-end Developer</h1>
+        <h1 style={{ color: "rgb(255,255,255" }}>
+          Hi, I&apos;m Thalitha | <br /> Software Engineer
+        </h1>
+        <ul className="contact-icons">
+          <li>
+            <a href="https://www.linkedin.com/in/thalitha-sambo-50919011b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+              <FaLinkedinIn className="contactIcon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/27720191566">
+              <FaWhatsapp className="contactIcon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ThalithaThomas">
+              <FaGithub className="contactIcon" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <MdEmail className="contactIcon" />
+            </a>
+          </li>
+        </ul>
         <p>
-          Hi,I&apos;m Thalitha Sambo a Passionate front end developer
-          specialising in <br />
-          translating design concepts into seamless and interactive web
-          experiences <br />
-          using HTML,CSS,JavaScript and React.
+          I thrive on exploration and creativity, and I&apos;m a firm <br />{" "}
+          believer in lifelong learning.
         </p>
-        <button className="btn">
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            offset={-40}
-            duration={500}
-          >
-            Contact me
-          </Link>
-        </button>
-        <button className="btn-light">
-          <a href="http://localhost:5178/thalitha.pdf">Resume</a>
+        <button className="dowloadResume ">
+          <a href="http://localhost:5178/thalitha.pdf">
+            Resume
+            <FaCloudDownloadAlt className="DownloadAlt" />
+          </a>
         </button>
       </div>
     </div>

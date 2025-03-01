@@ -1,3 +1,4 @@
+import { MdEmail } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
@@ -51,17 +52,22 @@ const Contact = () => {
         <ul className="contact-icons">
           <li>
             <a href="https://www.linkedin.com/in/thalitha-sambo-50919011b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-              <FaLinkedinIn size={20} style={{ color: "white" }} />
+              <FaLinkedinIn className="facontactIcon" />
             </a>
           </li>
           <li>
             <a href="https://wa.me/27720191566">
-              <FaWhatsapp size={20} style={{ color: "white" }} />
+              <FaWhatsapp className="facontactIcon" />
             </a>
           </li>
           <li>
             <a href="https://github.com/ThalithaThomas">
-              <FaGithub />
+              <FaGithub className="facontactIcon" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <MdEmail className="facontactIcon" />
             </a>
           </li>
         </ul>
