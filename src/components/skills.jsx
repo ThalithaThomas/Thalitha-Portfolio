@@ -31,7 +31,7 @@ const Skills = () => {
           </div>
           <div className="aboutP">
             <h4>My Quick Story</h4>
-            <h5>
+            <p>
               It all started in my first year of college when I found myself in
               a<strong> C++ course </strong>. The concepts felt foreign at
               first, but as I tackled the challenges, I uncovered the beauty of
@@ -41,7 +41,7 @@ const Skills = () => {
               embrace the exciting challenges ahead. Thus began my love affair
               with coding—a lifelong journey filled with creativity and endless
               possibilities!
-            </h5>
+            </p>
             <h3 href="#">keep reading my bio {">"} </h3>
           </div>
         </div>
