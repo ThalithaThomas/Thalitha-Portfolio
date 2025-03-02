@@ -15,9 +15,7 @@ button {
   background-color: rgb(18, 30, 39);
   padding: 0 2rem;
 }
-.navbar li {
-  color: white;
-}
+
 .navbar h2 {
   padding-left: 1rem;
   font-size: x-large;
@@ -29,9 +27,10 @@ button {
 }
 .nav-menu li {
   margin-right: 3rem;
+  color: white;
 }
 
-.nav-menu li a:hover {
+.nav-menu li:hover:not(:last-child) {
   color: #ed6955;
   text-decoration: underline;
   text-underline-offset: 10px;
@@ -54,9 +53,8 @@ button {
   cursor: pointer;
   padding: 5px 1rem;
 }
-.sayHi button a:hover {
-  background-color: white;
-  font-size: 10px;
+.sayHi:hover {
+  font-weight: 500;
 }
 .faBars {
   font-size: 2rem;

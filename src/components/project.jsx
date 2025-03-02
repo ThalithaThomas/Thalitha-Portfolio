@@ -2,9 +2,10 @@ import "./projectStyle.css";
 import tsongaQ from "../assets/tsongaQ.png";
 import todo from "../assets/todo.jpg";
 import tmg from "../assets/Tmg.jpg";
+import ImgComponent from "./imgComponent";
 const Project = () => {
   return (
-    <div className=" projectContainer ">
+    <div className=" projectContainer " id="projects">
       <div className="projectHeading">
         <h1>Projects</h1>
       </div>
@@ -26,8 +27,12 @@ const Project = () => {
             <button className=" viewProjectBtn">view website {">"}</button>
           </a>
         </div>
+
         <div className="image-wrapper">
-          <img src={tmg} alt="" />
+          <ImgComponent
+            image={tmg}
+            href="https://github.com/ThalithaThomas/TMLG-landingpage.git"
+          />
         </div>
       </div>
       <div className="projectwrapper">
@@ -48,7 +53,10 @@ const Project = () => {
           </a>
         </div>
         <div className="image-wrapper">
-          <img src={tsongaQ} alt="" />
+          <ImgComponent
+            image={tsongaQ}
+            href="https://github.com/ThalithaThomas/TMLG-landingpage.git"
+          />
         </div>
       </div>
 
@@ -74,7 +82,10 @@ const Project = () => {
           </a>
         </div>
         <div className="image-wrapper">
-          <img src={todo} alt="" />
+          <ImgComponent
+            image={todo}
+            href="https://github.com/ThalithaThomas/TMLG-landingpage.git"
+          />
         </div>
       </div>
     </div>

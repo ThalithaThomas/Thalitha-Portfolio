@@ -1,15 +1,14 @@
 .contact-container {
-  background-color: WHITE;
-  min-height: 100vh;
+  background-color: white;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .contact {
-  padding: 2rem 0;
+  padding: 4rem 0;
   border-radius: 15px;
   min-width: 700px;
   display: flex;
@@ -19,11 +18,13 @@
 }
 .contact h1 {
   margin-bottom: 1rem;
+  font-size: 34px;
   font-weight: 600;
   color: rgb(18, 30, 39);
 }
 .contact p {
   text-align: center;
+  font-size: 28px;
   margin-bottom: 1rem;
   color: rgb(18, 30, 39);
 }
@@ -47,7 +48,7 @@
 .contact-container form input:last-of-type {
   line-height: normal;
   text-align: left;
-  height: 50px;
+  height: 120px;
 }
 .facontactIcon {
   width: 30px;
@@ -82,7 +83,6 @@
     margin-bottom: 2rem;
     font-size: 45px;
     padding: 16px 12px;
-
     border-radius: 0px;
     width: 700px;
   }

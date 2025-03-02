@@ -1,22 +1,18 @@
-import "./App.css";
+import Home from "./pages/home";
+import AboutMe from "./pages/bio";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import Skills from "./components/skills";
-import About from "./components/about";
-import Project from "./components/project";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Project />
-      <Contact />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </>
   );
 }

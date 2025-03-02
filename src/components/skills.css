@@ -1,9 +1,10 @@
 .skillsContainer {
-  min-height: 100vh;
   background-color: white;
 }
 .skillsHeading h1 {
-  font-size: 3rem;
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 1rem;
   color: rgb(18, 30, 39);
   text-align: left;
   margin-left: min(4rem);
@@ -43,17 +44,17 @@
 }
 .aboutP h4 {
   margin-bottom: 6px;
-  font-size: 16px;
+  font-size: 36px;
   font-weight: 600;
 }
-.aboutP h3 {
-  margin-top: 1rem;
-  font-size: 16px;
+.aboutP a {
+  margin-top: 3rem;
+  font-size: 26px;
   font-weight: 500;
   color: #ed6955;
 }
 .aboutP p {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 @media (max-width: 778px) {
@@ -66,13 +67,13 @@
   }
 
   .skillsHeading h1 {
-    font-size: 5rem;
+    font-size: 40px;
     padding-top: 5rem;
   }
   .skillsContainer img {
     width: max(550px);
     height: max(600px);
-    margin-right: 0rem;
+    margin-right: 12rem;
     border-radius: 2rem;
   }
   .skills button {
@@ -89,9 +90,9 @@
     margin-top: 3rem;
     font-size: 40px;
   }
-  .aboutP h3 {
+  .aboutP a {
     margin-top: 2rem;
-    font-size: 46px;
+    font-size: 45px;
   }
 }
 
@@ -105,14 +106,13 @@
   }
 
   .skillsHeading h1 {
-    font-size: 5rem;
-
-    padding-top: 5rem;
+    padding-top: 3rem;
+    font-weight: 600;
   }
   .skillsContainer img {
     width: max(550px);
     height: max(600px);
-    margin-right: 0rem;
+    margin-right: 10rem;
     border-radius: 2rem;
   }
   .skills button {
@@ -127,17 +127,17 @@
   }
   .aboutP {
     margin-top: 3rem;
-    font-size: 55px;
+    font-size: 50px;
   }
   .aboutP p {
     margin-top: 3rem;
-    font-size: 55px;
+    font-size: 45px;
   }
   .aboutP h4 {
     margin-top: 3rem;
     font-size: 56px;
   }
-  .aboutP h3 {
+  .aboutP a {
     margin-top: 2rem;
     font-size: 46px;
   }

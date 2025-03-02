@@ -1,4 +1,5 @@
-import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import "./navbar.css";
 import { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
@@ -15,56 +16,43 @@ const Navbar = () => {
       <h2>Thalitha sambo</h2>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link
-            activeClass="active"
-            to="home"
-            spy={true}
-            offset={-100}
-            duration={500}
-            onClick={handleClickMenu}
-          >
+          <RouterLink activeClass="active" to="/" onClick={handleClickMenu}>
             Home
-          </Link>
+          </RouterLink>
         </li>
         <li>
-          <Link
+          <RouterLink
             activeClass="active"
-            to="about"
-            spy={true}
-            offset={-100}
-            duration={500}
+            to="/aboutme"
             onClick={handleClickMenu}
           >
             About
-          </Link>
+          </RouterLink>
         </li>
         <li>
-          <Link
-            activeClass="active"
+          <ScrollLink
             to="skills"
-            spy={true}
-            offset={-100}
-            duration={500}
+            activeClass="active"
             onClick={handleClickMenu}
           >
             Skills
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          <Link
+          <ScrollLink
             activeClass="active"
-            to="portfolio"
+            to="projects"
             spy={true}
-            offset={-100}
+            offset={-40}
             duration={500}
             onClick={handleClickMenu}
           >
             Project
-          </Link>
+          </ScrollLink>
         </li>
         <li>
           <button className="sayHi">
-            <Link
+            <ScrollLink
               activeClass="active"
               to="contact"
               spy={true}
@@ -73,7 +61,7 @@ const Navbar = () => {
               onClick={handleClickMenu}
             >
               Say Hello
-            </Link>
+            </ScrollLink>
           </button>
         </li>
       </ul>

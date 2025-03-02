@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className="skillsContainer" id="skills">
       <div className="skillsHeading">
-        <h1 className="relative"> My Skills </h1>
+        <h1> My Skills </h1>
       </div>
       <div className="skillsWrapper">
         <div>
@@ -42,7 +42,7 @@ const Skills = () => {
               with coding—a lifelong journey filled with creativity and endless
               possibilities!
             </p>
-            <h3 href="#">keep reading my bio {">"} </h3>
+            <a href="#">keep reading my bio {">"} </a>
           </div>
         </div>
       </div>

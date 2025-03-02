@@ -1,6 +1,6 @@
 .hero {
   min-height: (100vh);
-  padding: 8rem 0 6rem 0;
+  padding: 18rem 0 20rem 0;
   background-color: rgb(18, 30, 39);
 }
 .hero img {
@@ -15,6 +15,12 @@
   margin-top: 2rem;
   text-align: left;
   height: auto;
+}
+
+.hero h1 span {
+  text-decoration: underline 20px solid #ed6955;
+  width: auto;
+  height: 2px;
 }
 .hero-section h1 {
   font-size: 4rem;
@@ -37,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
 }
 .contactIcon {
   width: 40px;
@@ -45,13 +52,14 @@
 }
 .DownloadAlt {
   color: #ed6955;
+  font-size: 18px;
   width: 16px;
   height: 16px;
   margin-left: 5px;
 }
 @media (max-width: 768px) {
   .hero {
-    padding: 7rem 4rem;
+    padding: 20rem 4rem;
   }
   .hero-section h1 {
     font-size: 4rem;
@@ -62,13 +70,18 @@
   }
   .dowloadResume a {
     margin-top: 2rem;
-    font-size: 30px;
+    font-size: 26px;
+  }
+  .DownloadAlt {
+    font-size: 38px;
+    width: 24px;
+    height: 24px;
   }
 }
 
 @media (max-width: 425px) {
   .hero {
-    padding: 12rem 4rem;
+    padding: 22rem 4rem;
   }
   .hero-section h1 {
     font-size: 8rem;
@@ -92,7 +105,7 @@
 }
 @media (max-width: 380px) {
   .hero {
-    padding: 16rem 4rem;
+    padding: 22rem 4rem;
   }
   .hero-section h1 {
     font-size: 8rem;

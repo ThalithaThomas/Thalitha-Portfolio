@@ -1,6 +1,4 @@
 .about-container {
-  min-height: 100vh;
-
   margin: 0;
   background-color: white;
 }
@@ -11,7 +9,7 @@
 .cvDoc {
   color: #ed6955;
 }
-.about-p h3 {
+.about-p a {
   color: #ed6955;
   font-size: 20px;
 }
@@ -25,13 +23,13 @@
 }
 .about-p h4 {
   margin: 2rem 0 1rem 0;
-  font-size: 20px;
+  font-size: 33px;
   font-weight: 600;
   color: rgb(18, 30, 39);
 }
 .about-p p {
   color: rgb(18, 30, 39);
-  font-size: 20px;
+  font-size: 25px;
 }
 strong {
   font-weight: 600;
@@ -51,7 +49,7 @@ strong {
     font-size: 35px;
   }
   .about-p p {
-    font-size: 30px;
+    font-size: 40px;
   }
   .about-p {
     padding: 1rem 3rem;
@@ -70,7 +68,7 @@ strong {
     margin-bottom: 1rem;
   }
   .about-p p {
-    font-size: 50px;
+    font-size: 45px;
   }
   .about-p h4 {
     font-size: 55px;
