@@ -5,12 +5,12 @@ import { MdEmail } from "react-icons/md";
 import { FaGithub, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 const Hero = () => {
   return (
-    <div className="hero" id="home">
+    <div className="hero" id="hero">
       <div className="hero-section">
         <h1 style={{ color: "rgb(255,255,255" }}>
           Hi, I&apos;m Thalitha | <br /> Software Engineer
         </h1>
-        <ul className="contact-icons">
+        <ul className="contactIcons">
           <li>
             <a href="https://www.linkedin.com/in/thalitha-sambo-50919011b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
               <FaLinkedinIn className="contactIcon" />
@@ -27,7 +27,7 @@ const Hero = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="mailto:thalithaasambo@gmail.com">
               <MdEmail className="contactIcon" />
             </a>
           </li>

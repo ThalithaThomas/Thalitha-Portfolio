@@ -55,7 +55,7 @@ const Project = () => {
         <div className="image-wrapper">
           <ImgComponent
             image={tsongaQ}
-            href="https://github.com/ThalithaThomas/TMLG-landingpage.git"
+            href="https://github.com/ThalithaThomas/Tsonga-queens.git"
           />
         </div>
       </div>

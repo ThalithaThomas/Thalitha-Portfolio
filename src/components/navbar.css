@@ -4,12 +4,12 @@ button {
 }
 
 .navbar {
-  height: 5rem;
+  height: 8rem;
+  min-height: 8rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   top: 0;
   z-index: 100000;
   background-color: rgb(18, 30, 39);
@@ -18,7 +18,7 @@ button {
 
 .navbar h2 {
   padding-left: 1rem;
-  font-size: x-large;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 .nav-menu {
@@ -57,9 +57,10 @@ button {
   font-weight: 500;
 }
 .faBars {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
 }
+
 @media (max-width: 778px) {
   .navbar {
     padding: 2rem 3rem;
@@ -110,15 +111,15 @@ button {
 }
 @media (max-width: 425px) {
   .navbar {
-    padding: 3rem 4rem;
+    width: 39%;
+    padding: 0 10px;
   }
   .navbar h2 {
-    font-size: 48px;
-    padding-left: 0;
+    padding: 8px;
+    font-size: 1rem;
   }
-  .faBars {
-    size: 60rem;
-    font-size: 4rem;
-    color: white;
+
+  .nav-menu {
+    font-size: 1.2rem;
   }
 }

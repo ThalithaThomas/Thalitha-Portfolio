@@ -1,5 +1,5 @@
 import "./skills.css";
-
+import { Link as RouterLink } from "react-router-dom";
 import thali from "../assets/tha.jpg";
 const Skills = () => {
   return (
@@ -42,6 +42,7 @@ const Skills = () => {
               with coding—a lifelong journey filled with creativity and endless
               possibilities!
             </p>
+            <RouterLink to="/aboutme">keep reading my bio {">"}</RouterLink>
             <a href="#">keep reading my bio {">"} </a>
           </div>
         </div>
