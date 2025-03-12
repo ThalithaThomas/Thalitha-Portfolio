@@ -92,7 +92,6 @@ button {
     transform: translateX(-100%);
     transition: 0.3s easw;
     top: 0;
-
     z-index: -3;
     opacity: 1;
     transition: 0.4s;
