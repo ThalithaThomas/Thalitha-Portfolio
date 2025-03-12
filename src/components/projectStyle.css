@@ -1,5 +1,7 @@
 .projectContainer {
   background-color: white;
+  width: 100%;
+  max-width: 100%;
 }
 .projectHeading {
   text-align: left;
@@ -7,7 +9,6 @@
   margin-left: 4rem;
   color: rgb(18, 30, 39);
   font-weight: 800;
-
   margin-bottom: 2rem;
 }
 

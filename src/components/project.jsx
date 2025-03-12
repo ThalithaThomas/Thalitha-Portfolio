@@ -49,7 +49,7 @@ const Project = () => {
             include product listings, a shopping cart,
           </p>
           <a href="#">
-            <button className=" viewProjectBtn">view website {">"}</button>
+            <button className=" viewProjectBtn">view GitCode {">"}</button>
           </a>
         </div>
         <div className="image-wrapper">

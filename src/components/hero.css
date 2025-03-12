@@ -1,7 +1,8 @@
 .hero {
-  height: calc(100vh-8rem);
+  height: calc(100vh - 8rem);
   background-color: rgb(18, 30, 39);
   width: 100%;
+  max-width: 100%;
   overflow: hidden;
 }
 
