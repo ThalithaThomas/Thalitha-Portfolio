@@ -11,7 +11,7 @@ const Project = () => {
       </div>
       <div className="projectwrapper">
         <div className="projectContent">
-          <h1>Thomas Micro-Lending Group</h1>
+          <h2>Thomas Micro-Lending Group</h2>
           <div className="projectSkills">
             <button>HTML</button>
             <button>CSS</button>
@@ -37,7 +37,7 @@ const Project = () => {
       </div>
       <div className="projectwrapper">
         <div className="projectContent">
-          <h1>Tsonga Queens</h1>
+          <h2>Tsonga Queens</h2>
           <div className="projectSkills">
             <button>TailwindCSS</button>
             <button>React js </button>
@@ -62,7 +62,7 @@ const Project = () => {
 
       <div className="projectwrapper">
         <div className="projectContent">
-          <h1>To-Do List App</h1>
+          <h2>To-Do List App</h2>
           <div className="projectSkills">
             <button>HTML</button>
             <button>CSS</button>

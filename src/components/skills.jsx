@@ -16,18 +16,15 @@ const Skills = () => {
             <button>HTML</button>
             <button>CSS</button>
             <button>JavaScript</button>
-            <button>TailwindCSS</button>
-            <button>React </button>
-            <button>Redux toolkit</button>
-            <button>HTML</button>
-            <button>CSS</button>
             <button>Node.JS</button>
+            <button>React </button>
+            <button>TailwindCSS</button>
+            <button>Redux toolkit</button>
+
             <button>Python </button>
             <button>SQL</button>
-            <button>HTML</button>
-            <button>MYSQL</button>
             <button>Flask</button>
-            <button>GitHub</button>
+            <button>Git</button>
           </div>
           <div className="aboutP">
             <h4>My Quick Story</h4>
@@ -42,8 +39,7 @@ const Skills = () => {
               with coding—a lifelong journey filled with creativity and endless
               possibilities!
             </p>
-            <RouterLink to="/aboutme">keep reading my bio {">"}</RouterLink>
-            <a href="#">keep reading my bio {">"} </a>
+            <RouterLink to="/aboutme">keep reading my bio </RouterLink>
           </div>
         </div>
       </div>

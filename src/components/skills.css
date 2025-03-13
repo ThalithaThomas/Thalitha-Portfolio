@@ -1,32 +1,37 @@
 .skillsContainer {
   background-color: white;
   width: 100%;
-  max-width: 100%;
+  overflow-x: hidden;
 }
+
 .skillsHeading h1 {
   font-size: 33px;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin: 3rem;
   color: rgb(18, 30, 39);
   text-align: left;
   margin-left: min(4rem);
-  margin-bottom: 3rem;
 }
+
 .skillsContainer img {
   width: min(350px);
   height: max(380px);
   margin-right: min(4rem);
   border-radius: 2rem;
+  object-fit: cover;
 }
+
 .frontendbtn {
   padding: 0 3px;
 }
+
 .skillsWrapper {
   margin-left: min(4rem, 70%);
   display: flex;
   justify-content: left;
   gap: 2rem;
 }
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -34,113 +39,169 @@
   justify-content: flex-start;
   margin-bottom: 1rem;
 }
+
 .skills button {
   background-color: rgb(18, 30, 39);
   margin: 2px;
-  padding: 6px 25px;
+  padding: 4px 20px;
   cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
 }
+
+.skills button:hover {
+  background-color: #2a3f4f;
+}
+
 .bio {
   max-width: 50%;
   text-align: left;
 }
+
 .aboutP h4 {
   margin-bottom: 6px;
-  font-size: 36px;
+  font-size: 33px;
   font-weight: 600;
 }
+
 .aboutP a {
   margin-top: 3rem;
   font-size: 26px;
   font-weight: 500;
   color: #ed6955;
-}
-.aboutP p {
-  font-size: 28px;
+  text-decoration: none;
 }
 
-@media (max-width: 778px) {
+.aboutP a:hover {
+  color: #d54e3a;
+  text-decoration: underline;
+}
+
+.aboutP p {
+  font-size: 23px;
+}
+@media (max-width: 1024px) {
   .skillsWrapper {
-    margin: 6rem 0 0 0;
+    margin: 4rem 0 0 4rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .skillsHeading h1 {
     font-size: 40px;
-    padding-top: 5rem;
+    padding-top: 1rem;
+    text-align: left;
+    margin-left: 4rem;
   }
+
   .skillsContainer img {
-    width: max(550px);
-    height: max(600px);
-    margin-right: 12rem;
+    width: max(500px);
+    height: max(500px);
+    margin-right: 0;
+    margin-left: 0;
     border-radius: 2rem;
   }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
   .skills button {
     background-color: rgb(18, 30, 39);
     margin: 2px;
-    padding: 6px 25px;
-    font-size: 38px;
+    padding: 4px 25px;
+    font-size: 16px;
   }
+
   .bio {
-    margin: 2rem;
-    max-width: 70%;
+    max-width: 80%;
+    text-align: left;
   }
+
   .aboutP {
     margin-top: 3rem;
-    font-size: 40px;
+    font-size: 30px;
+    text-align: left;
   }
+
   .aboutP a {
     margin-top: 2rem;
-    font-size: 45px;
+    font-size: 25px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .aboutP h4 {
+    text-align: left;
+  }
+
+  .aboutP p {
+    text-align: left;
   }
 }
 
 @media (max-width: 425px) {
   .skillsWrapper {
-    margin: 6rem 0 2rem 0;
-    display: flex;
-    flex-direction: column;
+    margin: 4rem 0 0 0;
     justify-content: center;
     align-items: center;
   }
 
   .skillsHeading h1 {
-    padding-top: 3rem;
-    font-weight: 600;
+    padding-top: 0rem;
+    text-align: center;
+    margin-left: 0;
   }
+
   .skillsContainer img {
-    width: max(550px);
-    height: max(600px);
-    margin-right: 10rem;
-    border-radius: 2rem;
+    width: max(300px);
+    height: max(300px);
+    margin: 0 auto;
   }
+
+  .skills {
+    justify-content: center;
+  }
+
   .skills button {
-    background-color: rgb(18, 30, 39);
-    margin: 2px;
-    padding: 6px 25px;
-    font-size: 38px;
+    padding: 5px 15px;
+    font-size: 16px;
   }
+
   .bio {
     margin: 2rem;
-    max-width: 70%;
+    max-width: 94%;
+    text-align: center;
   }
+
   .aboutP {
     margin-top: 3rem;
     font-size: 50px;
+    text-align: center;
   }
+
   .aboutP p {
-    margin-top: 3rem;
-    font-size: 45px;
+    margin-top: 1rem;
+    font-size: 18px;
   }
+
   .aboutP h4 {
     margin-top: 3rem;
-    font-size: 56px;
+    font-size: 25px;
+    text-align: center;
   }
+
   .aboutP a {
-    margin-top: 2rem;
-    font-size: 46px;
+    margin-top: 0rem;
+    font-size: 18px;
+    text-align: center;
+    display: block;
   }
 }

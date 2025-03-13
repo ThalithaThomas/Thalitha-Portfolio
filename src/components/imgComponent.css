@@ -41,16 +41,30 @@
 .img-content a {
   margin-top: 2rem;
 }
-.img-content > * {
-  transform: translateY(25px);
-  transition: transform 0.06s;
-}
-.img-content:hover > * {
-  transform: translateY(0px);
-}
-.gitHubBtn {
-  cursor: pointer;
 
-  font-size: 16px;
-  font-weight: 600;
+.gitHubBtn {
+  border: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.viewWebBtn {
+  background-color: #ed6955;
+  padding: 5px 10px;
+  border: none;
+  display: none;
+}
+@media (max-width: 1024px) {
+  .viewWebBtn {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  .img-wrapper {
+    width: min(280px);
+    height: max(250px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
 }

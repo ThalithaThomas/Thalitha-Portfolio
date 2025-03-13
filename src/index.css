@@ -12,14 +12,7 @@ body {
   display: flex;
   text-align: center;
   height: 100vh;
-  overflow: hidden;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", serif;
+  overflow-x: hidden;
 }
 
 li {

@@ -5,6 +5,9 @@ const ImgComponent = ({ image, href }) => {
     <div className="img-wrapper">
       <img src={image} alt="" />
       <div className="img-content">
+        <a href="#">
+          <button className=" viewWebBtn">view website</button>
+        </a>
         <a href={href}>
           <button className=" gitHubBtn">Source Code</button>
         </a>
