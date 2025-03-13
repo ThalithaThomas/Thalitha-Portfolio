@@ -56,27 +56,39 @@
   height: 16px;
   margin-left: 5px;
 }
-@media (max-width: 778px) {
+@media (max-width: 1024px) {
   br {
     display: none;
   }
   .hero-section {
-    padding: 5rem 1.4rem 2rem 3rem;
+    padding: 8rem 1.4rem 2rem 3rem;
   }
 
   .hero-section h1 {
-    font-size: 3.5rem;
+    font-size: 3.9rem;
   }
   .hero-section p {
-    font-size: 1.5rem;
-    margin: 2.6rem 0;
+    font-size: 2rem;
+    margin: 2.9rem 0;
   }
   .dowloadResume a {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: 500;
   }
   .DownloadAlt {
-    width: 18px;
-    height: 18px;
+    width: 26px;
+    height: 26px;
+  }
+  .contactIcons {
+    margin-top: 2rem;
+  }
+
+  .contactIcons li {
+    margin-right: 2.5rem;
+  }
+  .contactIcon {
+    width: 45px;
+    height: 45px;
   }
 }
 @media (max-width: 425px) {
