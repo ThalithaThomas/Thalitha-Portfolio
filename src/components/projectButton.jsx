@@ -4,9 +4,9 @@ const ProjectBtn = ({ href }) => {
   return (
     <div>
       <a href={href}>
-        <button className="simple-button">
-          <span>View Project →</span>
-        </button>
+        <div className="simple-button">
+          <button> </button>
+        </div>
       </a>
     </div>
   );

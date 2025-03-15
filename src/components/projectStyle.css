@@ -63,9 +63,10 @@
 }
 
 .projectContent p {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: rgb(18, 30, 39);
   margin-bottom: 1rem;
+  font-weight: 340;
 }
 
 .projectSkills {
@@ -115,12 +116,12 @@
 
   .projectContainer h1 {
     font-size: 45px;
-    margin-bottom: 2rem;
+    margin-bottom: 2.2rem;
     text-align: left;
   }
 
   .projectContent p {
-    font-size: 23px;
+    font-size: 2rem;
     text-align: left;
   }
 
