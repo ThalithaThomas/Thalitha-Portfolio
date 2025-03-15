@@ -90,7 +90,7 @@
     display: none;
   }
   .hero-section {
-    padding: 13rem 1.4rem 2rem 3rem;
+    padding: 13rem 1.4rem 2rem 3rem !important;
   }
 
   .hero-section h1 {
@@ -123,7 +123,7 @@
 @media (max-width: 573px) {
   .hero-section {
     max-width: 80%;
-    padding: 13rem 1.4rem 1rem 1.4rem;
+    padding: 12rem 1.4rem 1rem 1.4rem !important;
   }
 
   .hero-section h1 {
