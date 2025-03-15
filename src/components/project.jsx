@@ -3,6 +3,7 @@ import tsongaQ from "../assets/tsongaQ.png";
 import todo from "../assets/todo.jpg";
 import tmg from "../assets/Tmg.jpg";
 import ImgComponent from "./imgComponent";
+import ProjectBtn from "./projectButton";
 const Project = () => {
   return (
     <div className=" projectContainer " id="projects">
@@ -23,9 +24,7 @@ const Project = () => {
             through compelling CTAs and a simple, accessible layout, allowing
             users to reach out and receive feedback more efficiently.
           </p>
-          <a href="#">
-            <button className=" viewProjectBtn">view website {">"}</button>
-          </a>
+          <ProjectBtn href="#" />
         </div>
 
         <div className="image-wrapper">
@@ -48,9 +47,7 @@ const Project = () => {
             A fully functional online store built with React and Redux. Features
             include product listings, a shopping cart,
           </p>
-          <a href="#">
-            <button className=" viewProjectBtn">view GitCode {">"}</button>
-          </a>
+          <ProjectBtn href="#" />
         </div>
         <div className="image-wrapper">
           <ImgComponent
@@ -77,9 +74,7 @@ const Project = () => {
             longer relevant, mark tasks as complete, update details such as due
             dates and task descriptions .
           </p>
-          <a href="#">
-            <button className=" viewProjectBtn">view website {">"}</button>
-          </a>
+          <ProjectBtn href="#" />
         </div>
         <div className="image-wrapper">
           <ImgComponent

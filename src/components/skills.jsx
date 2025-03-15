@@ -5,7 +5,9 @@ const Skills = () => {
   return (
     <div className="skillsContainer" id="skills">
       <div className="skillsHeading">
-        <h1> My Skills </h1>
+        <h1>
+          My <span className="skills-title-highlight">Skills </span>
+        </h1>
       </div>
       <div className="skillsWrapper">
         <div>
@@ -35,9 +37,7 @@ const Skills = () => {
               programming. Each project pulled me deeper into this captivating
               world, igniting a passion I never knew I had. I soon decided to
               pursue a<strong> software engineering course</strong>, eager to
-              embrace the exciting challenges ahead. Thus began my love affair
-              with coding—a lifelong journey filled with creativity and endless
-              possibilities!
+              embrace the exciting challenges ahead.
             </p>
             <RouterLink to="/aboutme">keep reading my bio </RouterLink>
           </div>

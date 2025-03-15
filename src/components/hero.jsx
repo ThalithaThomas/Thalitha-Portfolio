@@ -8,7 +8,13 @@ const Hero = () => {
     <div className="hero" id="hero">
       <div className="hero-section">
         <h1 style={{ color: "rgb(255,255,255" }}>
-          Hi, I&apos;m Thalitha | <br /> Software Engineer
+          Hi, I&apos;m Thalitha | <br />{" "}
+          <span className="highlight">
+            <span>Software </span>
+          </span>
+          <span className="highlight">
+            <span>Engineer</span>
+          </span>
         </h1>
         <ul className="contactIcons">
           <li>
