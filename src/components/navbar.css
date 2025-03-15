@@ -20,8 +20,8 @@ button {
 
 .navbar h2 {
   -left: 1rem;
-  font-size: 1.9rem;
-  font-weight: 400;
+  font-size: 1.7rem;
+  font-weight: 450;
 }
 
 .nav-menu {
@@ -92,8 +92,9 @@ button {
   }
 
   .navbar h2 {
-    font-size: 30px;
+    font-size: 1.9rem;
     padding-left: 0;
+    font-weight: 500;
   }
 
   .btn a {
@@ -149,7 +150,7 @@ button {
     padding: 1rem;
   }
   .navbar h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .nav-menu {
