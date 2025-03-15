@@ -4,8 +4,8 @@ button {
 }
 
 .navbar {
-  height: 8rem;
-  min-height: 8rem;
+  height: 9rem;
+  min-height: 9rem;
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -133,19 +133,18 @@ button {
 
 @media (max-width: 425px) {
   .navbar {
-    padding: 0 10px;
+    padding: 1rem;
   }
   .navbar h2 {
-    font-size: 38px;
-    padding: 8px;
-    font-size: 1rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
   }
 
   .nav-menu {
     font-size: 1.2rem;
   }
   .faBars {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: white;
   }
 }
