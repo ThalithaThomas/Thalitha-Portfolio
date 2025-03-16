@@ -23,7 +23,7 @@
   height: 1.2rem;
   background-color: #d54e3a;
   left: 0;
-  bottom: 5px;
+  bottom: 0.26em;
   z-index: -1;
 }
 .skillsContainer img {
@@ -153,6 +153,18 @@
   }
 }
 
+@media (max-width: 600px) {
+  .skillsContainer img {
+    width: max(320px);
+    height: max(320px);
+    margin: 0 auto;
+  }
+
+  .aboutP p {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+  }
+}
 @media (max-width: 425px) {
   .skillsWrapper {
     margin: 4rem 0 0 0;
@@ -161,8 +173,8 @@
   }
 
   .skillsContainer img {
-    width: max(300px);
-    height: max(300px);
+    width: max(280px);
+    height: max(280px);
     margin: 0 auto;
   }
 
@@ -183,24 +195,24 @@
 
   .aboutP {
     margin-top: 3rem;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
   }
 
   .aboutP p {
     margin-top: 1rem;
-    font-size: 1.6;
+    font-size: 1.6rem;
   }
 
   .aboutP h4 {
     margin-top: 3rem;
-    font-size: 25px;
+    font-size: 1.7rem;
     text-align: center;
   }
 
   .aboutP a {
     margin-top: 0rem;
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align: center;
     display: block;
   }

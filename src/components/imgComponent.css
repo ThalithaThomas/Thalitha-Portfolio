@@ -58,10 +58,22 @@
     display: block;
   }
 }
+
+@media (max-width: 480px) {
+  .img-wrapper {
+    width: min(300px);
+    height: max(250px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}
+
 @media (max-width: 425px) {
   .img-wrapper {
-    width: min(280px);
-    height: max(250px);
+    width: min(250px);
+    height: max(200px);
     display: flex;
     justify-content: center;
     align-items: center;

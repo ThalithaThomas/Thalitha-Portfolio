@@ -1,4 +1,6 @@
 .contact-container {
+  width: 100%;
+  max-width: 90%;
   background-color: white;
   overflow: hidden;
   display: flex;
@@ -17,13 +19,13 @@
 }
 .contact h1 {
   margin-bottom: 1rem;
-  font-size: 34px;
+  font-size: 1.8rem;
   font-weight: 600;
   color: rgb(18, 30, 39);
 }
 .contact p {
   text-align: center;
-  font-size: 28px;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   color: rgb(18, 30, 39);
 }
@@ -48,6 +50,7 @@
   line-height: normal;
   text-align: left;
   height: 120px;
+  padding: 12px 19px;
 }
 .facontactIcon {
   width: 30px;
@@ -55,7 +58,7 @@
   color: rgb(18, 30, 39);
 }
 .contact button {
-  padding: 8px 2rem;
+  padding: 0.5rem 2rem;
   font-size: 18px;
   background-color: #ed6955;
 }
@@ -73,35 +76,52 @@
     margin-top: 0rem;
   }
 }
+
 @media (max-width: 425px) {
-  .contact-container form input {
-    padding: 12px 100px;
-    font-size: 18px;
+  .contact-container {
+    padding: 0 1rem;
   }
+
   .contact-container form input {
-    margin-bottom: 2rem;
-    font-size: 18px;
-    padding: 16px 12px;
-    border-radius: 0px;
-    width: 700px;
+    margin-left: 0.3rem;
+    margin-bottom: 1rem; /* Fixed duplicate rule with different values */
+    font-size: 1.3rem;
+    padding: 12px 19px; /* Fixed conflicting padding values */
+    border-radius: 8px; /* Kept border radius */
+    width: 100%; /* Responsive width */
+    max-width: 100%; /* Allow full width on mobile */
   }
 
   .contact-container form input:last-of-type {
-    padding: 8rem 100px;
+    padding: 12px 19px; /* Fixed excessive padding */
+    height: 120px;
+  }
+  br {
+    display: block;
   }
   .contact h1 {
-    font-size: 28px;
-  }
-  .contact p {
-    font-size: 18px;
-    text-align: center;
-  }
-  .contact button {
-    padding: 8px 3rem;
-    font-size: 18px;
+    font-size: 24px;
   }
 
-  .btn {
-    border-radius: 0;
+  .contact p {
+    font-size: 1.1rem;
+  }
+
+  .contact button {
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    width: 100%; /* Full width button on mobile */
+    max-width: 200px;
+    margin-left: 3rem;
+  }
+
+  .contact-icons {
+    flex-wrap: wrap; /* Allow icons to wrap on small screens */
+    justify-content: center;
+  }
+
+  .contact-icons li {
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
   }
 }

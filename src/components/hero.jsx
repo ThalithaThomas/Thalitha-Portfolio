@@ -1,6 +1,6 @@
 import "./hero.css";
-import { FaCloudDownloadAlt } from "react-icons/fa";
 
+import { MdDownload } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 const Hero = () => {
@@ -45,7 +45,7 @@ const Hero = () => {
         <button className="dowloadResume ">
           <a href="http://localhost:5178/thalitha.pdf">
             Resume
-            <FaCloudDownloadAlt className="DownloadAlt" />
+            <MdDownload className="DownloadAlt" />
           </a>
         </button>
       </div>
