@@ -129,15 +129,16 @@
     margin: 2rem 0;
   }
 }
-@media (max-width: 573px) {
+
+@media (max-width: 581px) {
   .hero-section {
-    max-width: 80%;
-    padding: 12rem 1.4rem 1rem 1.4rem !important;
+    max-width: 90%;
+    padding: 18rem 1.4rem 1rem 1.4rem !important;
   }
   @supports (-webkit-touch-callout: none) {
     /* Safari only */
     .hero-section {
-      padding-top: 12rem !important;
+      padding-top: 18rem !important;
     }
   }
 
@@ -165,5 +166,18 @@
   .DownloadAlt {
     width: 22px;
     height: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-section {
+    max-width: 90%;
+    padding: 12rem 1.4rem 1rem 1.4rem !important;
+  }
+  @supports (-webkit-touch-callout: none) {
+    /* Safari only */
+    .hero-section {
+      padding-top: 12rem !important;
+    }
   }
 }
