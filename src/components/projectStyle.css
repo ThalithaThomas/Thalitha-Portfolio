@@ -126,7 +126,7 @@
   }
 
   .projectContent p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: left;
   }
 
@@ -143,7 +143,7 @@
     background-color: rgb(18, 30, 39);
     margin: 2px;
     padding: 5px 15px;
-    font-size: 20px;
+    font-size: 1.2rem;
     cursor: pointer;
   }
 }

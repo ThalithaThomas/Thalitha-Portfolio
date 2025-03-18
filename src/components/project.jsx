@@ -24,7 +24,7 @@ const Project = () => {
             through compelling CTAs and a simple, accessible layout, allowing
             users to reach out and receive feedback more efficiently.
           </p>
-          <ProjectBtn href="#" />
+          <ProjectBtn href="https://tmlg-ce4c0e8e099f.herokuapp.com/" />
         </div>
 
         <div className="image-wrapper">
