@@ -162,7 +162,7 @@
 
   .aboutP p {
     margin-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 425px) {
@@ -184,7 +184,7 @@
 
   .skills button {
     padding: 5px 15px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .bio {
@@ -195,7 +195,7 @@
 
   .aboutP {
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
   }
 

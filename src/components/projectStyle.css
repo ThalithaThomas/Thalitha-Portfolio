@@ -147,18 +147,13 @@
     cursor: pointer;
   }
 }
-@media (max-width: 425px) {
-  .projectContent p {
-    font-size: 1.7rem;
-    text-align: left;
-  }
-}
+
 @media (max-width: 425px) {
   .projectContent {
     margin-left: 2rem;
   }
   .projectContent p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-align: left;
   }
 
