@@ -132,13 +132,13 @@
 
   .aboutP {
     margin-top: 3rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: left;
   }
 
   .aboutP a {
     margin-top: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     display: inline-block;
     text-align: left;
   }
@@ -149,7 +149,7 @@
 
   .aboutP p {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -162,7 +162,7 @@
 
   .aboutP p {
     margin-top: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 425px) {
