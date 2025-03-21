@@ -2,7 +2,7 @@ import "./projectStyle.css";
 import tsongaQ from "../assets/tsongaQ.png";
 import todo from "../assets/todo.jpg";
 import tmg from "../assets/Tmg.jpg";
-import thali from "../assets/techgirl.jpggi";
+import thali from "../assets/techgirl.jpg";
 import ImgComponent from "./imgComponent";
 import ProjectBtn from "./projectButton";
 const Project = () => {
