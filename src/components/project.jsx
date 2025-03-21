@@ -75,7 +75,7 @@ const Project = () => {
             longer relevant, mark tasks as complete, update details such as due
             dates and task descriptions .
           </p>
-          <ProjectBtn href="#" />
+          <ProjectBtn href="https://github.com/ThalithaThomas/To-do-list.git" />
         </div>
         <div className="image-wrapper">
           <ImgComponent
