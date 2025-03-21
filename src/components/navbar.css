@@ -4,8 +4,8 @@ button {
 }
 
 .navbar {
-  height: 9rem;
-  min-height: 9rem;
+  height: 6rem;
+  min-height: 6rem;
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -119,15 +119,23 @@ button {
     z-index: 999;
     opacity: 1;
     transition: transform 0.4s ease;
-    font-size: 48px;
+    font-size: 1.7rem;
     padding-top: 2rem;
     background-color: rgb(18, 30, 39);
   }
 
   .nav-menu li {
     padding: 1rem 0;
+    margin-right: 0;
   }
-
+  .nav-menu button a {
+    font-size: 1.5rem;
+  }
+  .sayHi {
+    background: transparent;
+    border-radius: 1rem;
+    padding: 1rem 0rem;
+  }
   .nav-menu.active {
     transform: translateX(0);
     -webkit-transform: translateX(0);

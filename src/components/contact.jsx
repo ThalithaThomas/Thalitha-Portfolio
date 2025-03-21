@@ -66,7 +66,7 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="mailto:thalithaasambo@gmail.com">
               <MdEmail className="facontactIcon" />
             </a>
           </li>

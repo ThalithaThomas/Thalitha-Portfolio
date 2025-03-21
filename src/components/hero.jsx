@@ -43,7 +43,7 @@ const Hero = () => {
           believer in lifelong learning.
         </p>
         <button className="dowloadResume ">
-          <a href="http://localhost:5178/thalitha.pdf">
+          <a href="/Thalitha-Portfolio/thalitha.pdf">
             Resume
             <MdDownload className="DownloadAlt" />
           </a>

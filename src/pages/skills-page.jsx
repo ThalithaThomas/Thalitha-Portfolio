@@ -1,6 +1,7 @@
 import Skills from "../components/skills";
 import Footer from "../components/footer";
-const Home = () => {
+import "../App.css";
+const SkillsPage = () => {
   return (
     <div>
       <Skills />
@@ -9,4 +10,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default SkillsPage;

@@ -2,6 +2,7 @@ import "./projectStyle.css";
 import tsongaQ from "../assets/tsongaQ.png";
 import todo from "../assets/todo.jpg";
 import tmg from "../assets/Tmg.jpg";
+import thali from "../assets/techgirl.jpggi";
 import ImgComponent from "./imgComponent";
 import ProjectBtn from "./projectButton";
 const Project = () => {
@@ -30,7 +31,7 @@ const Project = () => {
         <div className="image-wrapper">
           <ImgComponent
             image={tmg}
-            href="https://github.com/ThalithaThomas/TMLG-landingpage.git"
+            href="https://github.com/ThalithaThomas/Thomas-Micro-lending-group.git"
           />
         </div>
       </div>
@@ -47,7 +48,7 @@ const Project = () => {
             A fully functional online store built with React and Redux. Features
             include product listings, a shopping cart,
           </p>
-          <ProjectBtn href="#" />
+          <ProjectBtn href="https://tsongaqueens-31f1c25e123c.herokuapp.com/" />
         </div>
         <div className="image-wrapper">
           <ImgComponent
@@ -80,6 +81,28 @@ const Project = () => {
           <ImgComponent
             image={todo}
             href="https://github.com/ThalithaThomas/TMLG-landingpage.git"
+          />
+        </div>
+      </div>
+      <div className="projectwrapper">
+        <div className="projectContent">
+          <h2>Personal website</h2>
+          <div className="projectSkills">
+            <button>CSS</button>
+            <button>React js </button>
+            <button>javascript</button>
+          </div>
+          <p>
+            A fully functional professional portfolio website built using
+            React.js, CSS, and JavaScript. This modern single-page application
+            showcases my skills, projects, and professional background.
+          </p>
+          <ProjectBtn href="thalithathomas.github.io/Thalitha-Portfolio" />
+        </div>
+        <div className="image-wrapper">
+          <ImgComponent
+            image={thali}
+            href="https://github.com/ThalithaThomas/Thalitha-Portfolio.git"
           />
         </div>
       </div>

@@ -7,9 +7,9 @@ const About = () => {
         <div className="about-p">
           <h1>My Journey into the world of coding</h1>
           <p>
-            Looking for my
+            Looking for my&nbsp;
             <a className="cvDoc" href="http://localhost:5178/thalitha.pdf">
-              cv
+              Resume
             </a>
             ?
           </p>
