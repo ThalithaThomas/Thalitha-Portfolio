@@ -1,5 +1,5 @@
 import { Link as RouterLink } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
+
 import "./navbar.css";
 import { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
@@ -16,52 +16,30 @@ const Navbar = () => {
       <h2>Thalitha sambo</h2>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <RouterLink activeClass="active" to="/" onClick={handleClickMenu}>
+          <RouterLink to="/" onClick={handleClickMenu}>
             Home
           </RouterLink>
         </li>
         <li>
-          <RouterLink
-            activeClass="active"
-            to="/aboutme"
-            onClick={handleClickMenu}
-          >
+          <RouterLink to="/aboutme" onClick={handleClickMenu}>
             About
           </RouterLink>
         </li>
         <li>
-          <ScrollLink
-            to="skills"
-            activeClass="active"
-            onClick={handleClickMenu}
-          >
+          <RouterLink to="/skills" onClick={handleClickMenu}>
             Skills
-          </ScrollLink>
+          </RouterLink>
         </li>
         <li>
-          <ScrollLink
-            activeClass="active"
-            to="projects"
-            spy={true}
-            offset={-40}
-            duration={500}
-            onClick={handleClickMenu}
-          >
+          <RouterLink to="projects" onClick={handleClickMenu}>
             Project
-          </ScrollLink>
+          </RouterLink>
         </li>
         <li>
           <button className="sayHi">
-            <ScrollLink
-              activeClass="active"
-              to="contact"
-              spy={true}
-              offset={-40}
-              duration={500}
-              onClick={handleClickMenu}
-            >
+            <RouterLink to="/contact" onClick={handleClickMenu}>
               Say Hello
-            </ScrollLink>
+            </RouterLink>
           </button>
         </li>
       </ul>
