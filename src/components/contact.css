@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
   margin: 4rem auto;
 }
 
@@ -45,7 +46,7 @@
 
 .contact-container form input {
   margin-bottom: 1rem;
-  background-color: rgb(205, 203, 203);
+  background-color: rgb(228, 225, 225);
   padding: 0.75rem; /* 12px to rem */
   border: none;
   outline: none;
@@ -53,6 +54,7 @@
   width: 100%;
   max-width: 31.25rem; /* 500px to rem */
   text-align: left;
+  color: gray;
 }
 
 .contact-container form input:last-of-type {

@@ -1,8 +1,8 @@
 import "./hero.css";
 
-import { MdDownload } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
+
 const Hero = () => {
   return (
     <div className="hero" id="hero">
@@ -42,11 +42,8 @@ const Hero = () => {
           I thrive on exploration and creativity, and I&apos;m a firm <br />{" "}
           believer in lifelong learning.
         </p>
-        <button className="dowloadResume ">
-          <a href="/Thalitha-Portfolio/thalitha.pdf">
-            Resume
-            <MdDownload className="DownloadAlt" />
-          </a>
+        <button className="dowloadResume">
+          <a href="/Thalitha-Portfolio/thalitha.pdf">Resume</a>
         </button>
       </div>
     </div>
