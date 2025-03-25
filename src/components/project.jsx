@@ -75,12 +75,12 @@ const Project = () => {
             longer relevant, mark tasks as complete, update details such as due
             dates and task descriptions .
           </p>
-          <ProjectBtn href="https://github.com/ThalithaThomas/To-do-list.git" />
+          <ProjectBtn href="https://priority-planner-c7e6696a07fe.herokuapp.com/" />
         </div>
         <div className="image-wrapper">
           <ImgComponent
             image={todo}
-            href="https://github.com/ThalithaThomas/TMLG-landingpage.git"
+            href="https://github.com/ThalithaThomas/Thalitha-Portfolio.git"
           />
         </div>
       </div>
